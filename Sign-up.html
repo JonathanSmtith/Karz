@@ -1,0 +1,71 @@
+<!----------------- Sign-up.html ------------------------->
+<!----------------- BY Ikhlaq Ahmad ------------------->
+
+<!DOCTYPE html>
+
+<html lang="">
+    <!--- head --->
+    <head>
+        <!--- responsive viewport --->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--- fonts --->
+        <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+
+        <!--- css --->
+        <link rel="stylesheet" href="Sign-up.css">
+
+        <!--- title --->
+        <title>Sign up</title>
+
+    </head>
+
+    <!--- body --->
+    <body>
+        <!--- background image --->
+        <div class="background_image">
+
+            <div class="sign-up-box">
+
+                <!--- title --->
+                <div class="Welcome"><h2>Welcome to Karz</h2></div>
+
+                <!--- Sign in heading --->
+                <div class="Account-signIn">
+                    <p>Already have an account? <a href="Login.html" > Sign in</a></p>
+                </div>
+
+                <!-------- email -------->
+                <div class="email-div">
+                    <label class="email-label">
+                        <input class="email_input" type="email" name="emailBox" size="32" placeholder="Email">
+                    </label>
+                </div>
+
+                <!-------- password -------->
+                <div class="password-div">
+                    <label class="password_label">
+                        <input class="re_password_input" type="password" name="passwordBox" size="32" placeholder="Password">
+                    </label>
+                </div>
+
+                <!-------- Re-password -------->
+                <div class="re-password-div">
+                    <label class="re-password_label">
+                        <input class="password_input" type="password" name="re-passwordBox" size="32" placeholder="Re-password">
+                    </label>
+                </div>
+
+                <!--- submit btn --->
+                <button type="submit" onclick="validate_signup()" class="submit-btn">Submit</button>
+
+            </div>
+
+        </div>
+        
+        <!--- script function for alert --->
+        <script src="Index.js"></script>
+
+
+    </body>
+</html>

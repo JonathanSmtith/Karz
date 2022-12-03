@@ -1,0 +1,72 @@
+<!----------------- Login.html ------------------------->
+<!----------------- BY Ikhlaq Ahmad ------------------->
+
+<!DOCTYPE html>
+
+<html lang="">
+
+<!--- head --->
+    <head>
+      <!--- responsive viewport --->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!--- fonts --->
+      <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+
+      <!--- css --->
+      <link rel="stylesheet" href="Login.css">
+
+      <!--- title --->
+      <title>Login</title>
+
+    </head>
+
+<!--- --->
+    <!--- body --->
+    <body>
+        <!--- Background image --->
+        <div class="login-background-image">
+
+            <!--- login box --->
+            <div class="login-box">
+
+                <!--- title --->
+                <div class="login-welcome"><h2>Welcome to Karz</h2></div>
+
+                <!--- Sign in heading --->
+                <div class="login-signup">
+                    <p>Don't have an account? <a href="Sign-up.html"> Sign up</a></p>
+                </div>
+
+                <!-------- email -------->
+                <div class="login-email-div">
+                    <label class="login-email-label">
+                        <input class="login-email-input" type="email" name="emailBox" size="32" placeholder="Email">
+                    </label>
+                </div>
+
+                <!-------- password -------->
+                <div class="login-password-div">
+                    <label class="login-password-label">
+                        <input class="login-password-input" type="password" name="passwordBox" size="32" placeholder="Password">
+                    </label>
+                </div>
+
+                <!--- submit btn --->
+                <button type="submit" onclick="validate_Account()" class="login-submit-btn">Submit</button>
+
+                <!--- forgot password hyperlink --->
+                <div class="login-forgot-password">
+                    <h3><a href="ForgotPassword.html"> Forgot password?</a></h3>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--- script function for alert --->
+        <script src="Index.js"></script>
+
+    </body>
+
+</html>

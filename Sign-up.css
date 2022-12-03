@@ -1,0 +1,59 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.background_image{
+    height: 100%;
+    width: 80%;
+    background: url("./Pictures/car_background.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.sign-up-box {
+    padding: 0;
+    background-color: white;
+    background-size: cover;
+    position: absolute;
+    margin-left: 80%;
+}
+
+.Welcome, .Account-signIn, .email-div, .password-div, .re-password-div, .forgot-password{
+    font-size: 20px;
+    text-align: center;
+    margin: 3% 6%;
+}
+
+.Welcome{
+    margin-top: 50%;
+}
+
+.submit-btn{
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #716eea;
+    padding: 2% 20%;
+    border: solid #000000 2px;
+    box-shadow: rgb(0, 0, 0) 0 0 0 0;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 23%;
+    position: center;
+}
+
+.submit-btn:hover{
+
+    transition : 1500ms;
+    padding: 2% 20%;
+    transform : translateY(3px);
+    background-color: #fff;
+    color: #0066cc;
+    border: solid 2px #0066cc;
+
+}

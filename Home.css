@@ -1,0 +1,104 @@
+
+body, html{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.background-home{
+    height: 100%;
+    width: 100%;
+    background: url("./Pictures/car_background.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: #716eea;
+    overflow: hidden;
+}
+
+a{
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background-color: #f3f3f3;
+    color: black;
+}
+
+.sign-up, .login-in, .cart{
+    float: right;
+}
+
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid #716eea;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #ffffff;
+}
+
+.searchTerm:focus{
+    color: #000000;
+}
+
+.search-btn {
+    width: 80px;
+    height: 36px;
+    border: 1px solid #716EEA;
+    background: #716EEA;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.search-click{
+    padding: 0;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+/*@media screen and (max-width: 800px){
+    #menu {position:relative}
+    #menu ul {background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
+    #menu ul.sub-menus {width:100%;position:static;}
+    #menu ul.sub-menus a {padding-left:30px;}
+    #menu li {display:block;float:none;width:auto;}
+    #menu input, #menu label {position:absolute;top:0;left:0;display:block}
+    #menu input {z-index:4}
+    #menu input:checked + label {color:white}
+    #menu input:checked + label:before {content:"\00d7"}
+    #menu input:checked ~ ul {display:block}
+}
+*/
